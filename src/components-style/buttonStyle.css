@@ -1,0 +1,32 @@
+.click-button{
+  background-color: #4A86BE;
+  width: 50%;
+  height: 100%;
+}
+
+.restart-butto{
+  background-color: #47BB7A;
+  width: 50%;
+  height: 100%;
+}
+
+button{
+  border-radius: 20px;
+  color: #E9F5F3;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Robot, sans-serif;
+  border: 5px solid #E9F5F3;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #B74ABE;
+}
+
+@media screen and (max-width:768px){
+  .click-button,
+  .restart-butto{
+    width: 65%;
+  }
+}

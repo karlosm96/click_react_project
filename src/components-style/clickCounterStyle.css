@@ -1,0 +1,17 @@
+html{
+  --main-font-color: #E9F5F3;
+}
+.clickCounter-container{
+  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 550;
+  color: var(--main-font-color);
+  font-family: Robot, sans-serif;
+}
+
+@media screen and (max-width:768px){
+  .clickCounter-container{
+    font-size: rem;
+  }
+}
